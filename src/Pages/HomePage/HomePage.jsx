@@ -36,9 +36,6 @@ function HomePage() {
                 </div>
                 </div>
             </header>
-            <AboutPage />
-            <SkillsPage />
-            <Certifications />
             {/* <Banner />
             <Progress percentage={30}/> */}
       </div>
