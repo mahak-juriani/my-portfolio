@@ -60,3 +60,8 @@ nav {
     font-size: 1.5em;
     color: #61dafb;
 }
+
+.nav-item.active a {
+    text-decoration: underline !important;
+  }
+  

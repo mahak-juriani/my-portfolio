@@ -1,4 +1,4 @@
-import NavBar from '../../components/NavBar/NavBar.js';
+import NavBar from '../../components/NavBar/NavBar.jsx';
 import TypeWriter from '../../components/Typewriter/Typewriter.js';
 import SkillsPage from '../Skills';
 import Certifications from '../Certifications';
@@ -9,7 +9,7 @@ function HomePage() {
     return (
         <div className="App">
             <header className="App-header">
-                <NavBar />
+                {/* <NavBar /> */}
                 <div className="static-container">
                 <h1 className="nameElement">Mahak Juriani</h1>
                 <TypeWriter

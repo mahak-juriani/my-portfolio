@@ -1,5 +1,5 @@
 import './App.css';
-import NavBar from './components/NavBar/NavBar.js';
+import NavBar from './components/NavBar/NavBar.jsx';
 import TypeWriter from './components/Typewriter/Typewriter.js';
 import Tile from './components/Tile/Tile';
 import Banner from './components/Banner';
