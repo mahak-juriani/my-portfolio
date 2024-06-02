@@ -1,13 +1,13 @@
 import Tile from '../../components/Tile/Tile';
-
+import img from './Screenshot from 2024-06-02 23-48-16.png';
 function AboutPage() {
     return (
         <div className='About'>
             <Tile
             header={"About"}
-            subHeader={"This is where you can describe about yourself. The more you describe about yourself, the better it is!"}
-            img={"https://cdn.dribbble.com/users/3484830/screenshots/16787618/media/b134e73ef667b926c76d8ce3f962dba2.gif"}
-            text={"Extra Information about you, like hobbies and your goals.Example Paragraph: I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of our photos and graphics. I soon became the go-to person for any design needs."}
+            subHeader={"Something about me!"}
+            img={img}
+            text={"My name is Mahak Juriani, a passionate individual deeply immersed in the world of coding. Currently in my first year at Scaler School of Technology located in Bangalore, I am pursuing a Bachelor's degree in Computer Science. Beyond the realms of technology, I find solace and inspiration in painting, letting my creativity flow on canvas, and indulging in the refreshing waters of swimming and travelling"}
             position={"img-right"}
             bgColor={"red"}
             />
