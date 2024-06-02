@@ -23,7 +23,7 @@ function NavBar() {
 
                 <Link onClick={()=>{setActiveLink("projects")}} to="projects" className={activeLink=="projects"?"nav-item active":"nav-item"}><a href="">Project</a></Link>
 
-                <li className="nav-item"><a href="">Resume</a></li>
+                <li className="nav-item"><a href="https://drive.google.com/file/d/1VellZNyaWeqCpq5s5qLAl8jdpz7XqmkM/view" target="_blank">Resume</a></li>
             </ul>
         </nav>
     )
