@@ -4,6 +4,8 @@ function Certifications(){
     return(
         <div className="certifications-contianer">
             <h1>Certifications</h1>
+            <br/>
+            <br/>
             <div class="certificate-card">
             <div class="certificate-details">
                 <h3>Certificate Details</h3>

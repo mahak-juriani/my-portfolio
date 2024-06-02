@@ -8,6 +8,7 @@ import HomePage from './Pages/AboutPage';
 import AboutPage from './Pages/HomePage';
 import SkillsPage from './Pages/Skills';
 import Certifications from './Pages/Certifications';
+import Education from './Pages/Education';
 
 
 
@@ -66,6 +67,7 @@ function App() {
       </div>
       <SkillsPage />
       <Certifications />
+      <Education />
       {/* <Banner />
       <Progress percentage={30}/> */}
       {/* <Routes>
