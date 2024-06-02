@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+    position: relative;
+  }
+  
+  html {
+    background-color: #f6f6f6;
+  }
+  html::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    background-color: #ffebeb;
+    top: 8em;
+    right: -8em;
+    width: 15em;
+    height: 15em;
+  }
+  
+  body {
+    padding: 1em;
+    font-family: Arial, sans serif;
+    font-size: 14px;
+  }
+  body::before, body::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    background-color: #ffebeb;
+  }
+  body::before {
+    top: -10em;
+    left: -15em;
+    width: 25em;
+    height: 30em;
+  }
+  body::after {
+    top: -12em;
+    right: -12em;
+    width: 25em;
+    height: 25em;
+  }
+  
+  .timelines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timeline-title {
+    font-size: 3em;
+    font-weight: bold;
+  }
+  
+  .timeline-item {
+    margin-bottom: 2em;
+  }
+  .timeline-item h3 {
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    position: relative;
+    padding-left: 1.5em; /* Add padding to create space between text and dot */
+  }
+  .timeline-item h3::before {
+    content: "";
+    position: absolute;
+    left: -2.45em;
+    margin-top: 70px;
+    background-color: #7db5ea;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    transform: translate(-0.5px, 0.2em);
+  }
+  
+  .timeline-items {
+    margin: 2em;
+    padding: 0.02em 0 3em 2em;
+    border-left: 1px solid #7db5ea;
+  }
+  
+  .timeline-item {
+    margin-top: -0.3em;
+  }
+  .timeline-item time {
+    display: block;
+    float: left;
+    background-color: #32699d;
+    padding: 0.2em 0.4em;
+  }
+  .timeline-item > * {
+    margin: 1em 0;
+  }
+  .timeline-item .location {
+    clear: both;
+    font-size: 0.85em;
+    font-style: italic;
+  }
