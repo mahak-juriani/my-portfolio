@@ -12,42 +12,59 @@ function Projects() {
         <div className='projects'>
             <h1>Projects</h1>
             <div className="card-container">
+                <div className="item">
                 <Card
                     imgSrc={portfolio}
                     title={"My Portfolio"}
                     description={"This project serves as my personal portfolio, showcasing my skills and projects, all meticulously crafted using the powerful and versatile React framework."}
                     githubLink={"blahblah"}
-                />
+                /> 
+                </div>
+            
+                <div className="item">
                 <Card
                     imgSrc={spellchecker}
                     title={"Spell Checker"}
-                    description={"Extra Information about you, like hobbies and your goals.Example Paragraph: I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of our photos and graphics. I soon became the go-to person for any design needs."}
-                    githubLink={"blahblah"}
+                    description={"This project is a Spell Checker application developed in Python, designed to identify and correct spelling errors in text efficiently."}
+                    githubLink={"https://github.com/mahak-juriani/Spell-Checker"}
                 />
+                </div>
+                <div className="item">
+
                 <Card
                     imgSrc={musicplayer}
                     title={"Music Player"}
-                    description={"Extra Information about you, like hobbies and your goals.Example Paragraph: I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of our photos and graphics. I soon became the go-to person for any design needs."}
-                    githubLink={"blahblah"}
+                    description={"This project is a Music Player application built using JavaScript, HTML, and CSS, offering a sleek interface and seamless audio playback experience."}
+                    githubLink={"https://github.com/mahak-juriani/Music-player"}
                 />
+                </div>
+                <div className="item">
+
                 <Card
                     imgSrc={calculator}
                     title={"Calculator"}
-                    description={"Extra Information about you, like hobbies and your goals.Example Paragraph: I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of our photos and graphics. I soon became the go-to person for any design needs."}
-                    githubLink={"blahblah"}
+                    description={"This project is a Calculator application created using JavaScript, HTML, and CSS, providing a user-friendly interface for basic arithmetic operations."}
+                    githubLink={"https://github.com/mahak-juriani/js-basics/tree/main/Calculator"}
                 />
+                </div>
+                <div className="item">
+
                 <Card
                     imgSrc={blackjack}
                     title={"Black Jack Game"}
-                    description={"Extra Information about you, like hobbies and your goals.Example Paragraph: I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of our photos and graphics. I soon became the go-to person for any design needs."}
-                    githubLink={"blahblah"}
+                    description={"This project is a Black Jack game developed using JavaScript, HTML, and CSS, delivering an interactive and engaging card game experience."}
+                    githubLink={"https://github.com/mahak-juriani/js-basics/tree/main/Black%20Jack"}
                 />
+                </div>
+                <div className="item">
+
                 <Card
                     imgSrc={peoplecounter}
                     title={"People Counter"}
-                    description={"Extra Information about you, like hobbies and your goals.Example Paragraph: I am passionate about my work. Because I love what I do, I have a steady source of motivation that drives me to do my best. In my last job, this passion led me to challenge myself daily and learn new skills that helped me to do better work. For example, I taught myself how to use Photoshop to improve the quality of our photos and graphics. I soon became the go-to person for any design needs."}
-                    githubLink={"blahblah"}
+                    description={"This project is a People Counter application built with JavaScript, HTML, and CSS, designed to efficiently track and display the number of people entering and exiting a space."}
+                    githubLink={"https://github.com/mahak-juriani/js-basics/tree/main/People%20Counter"}
                 />
+                </div>
             </div>
         </div>
     );

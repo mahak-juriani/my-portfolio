@@ -1,5 +1,5 @@
 import "./NavBar.css";
-import logo from '../../logo.svg';
+import logo from './pngtree-letter-jm-mj-m-j-monogram-logo-design-minimal-icon-image_308512.jpg';
 
 import { Link } from 'react-router-dom';
 import { useState } from "react";

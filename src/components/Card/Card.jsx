@@ -10,7 +10,6 @@ const Card = ({ imgSrc, title, description, githubLink }) => {
         <p className="project-description">{description}</p>
         <a href={githubLink} className="github-link">GitHub</a>
         <div className="icons">
-          
         </div>
       </div>
     </div>
