@@ -20,6 +20,8 @@ nav {
 }
 
 .nav-item a {
+    display: inline-block;
+    position: relative;
     color: white;
     text-decoration: none;
     padding: 5px 0;
@@ -29,6 +31,7 @@ nav {
 
 .nav-item a::after{
     content: "";
+    position: absolute;
     display: block;
     height: 2px;
     width: 0;
@@ -37,7 +40,7 @@ nav {
 }
 
 .nav-item a:hover::after {
-    width: 100%;
+    width: 40%;
 }
 
 .static-container {

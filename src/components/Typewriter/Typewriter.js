@@ -1,4 +1,5 @@
 import {useEffect, useState} from "react";
+import "./Typewriter.css";
 function TypeWriter ({text,
     typingSpeed=100,
     deletingSpeed=50,
@@ -37,7 +38,7 @@ function TypeWriter ({text,
              return () => clearTimeout(timeout);
         }, [displayedText, isDeleting, index, text,typingSpeed, deletingSpeed])
         return (
-        <div className="typing-effect">
+        <div className="typing-effect" id="sub-title">
             {displayedText}
             <span className="caret"></span>
         </div>
