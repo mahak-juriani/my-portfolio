@@ -9,6 +9,7 @@ import AboutPage from './Pages/AboutPage';
 import SkillsPage from './Pages/Skills';
 import Certifications from './Pages/Certifications';
 import Education from './Pages/Education';
+import Projects from './Pages/Projects';
 
 
 
@@ -32,6 +33,8 @@ function App() {
         <Route path="about" element={<AboutPage />} />
         <Route path="skills" element={<SkillsPage />} />
         <Route path="education" element={<Education />} />
+        <Route path="certification" element={<Certifications />}/>
+        <Route path="projects" element={<Projects />}/>
       </Routes>
     </Router>
     

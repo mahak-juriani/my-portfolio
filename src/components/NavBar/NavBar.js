@@ -10,10 +10,10 @@ function NavBar() {
             <ul className="navBar">
                 <Link to="/" className="nav-item"><a href="">Home</a></Link>
                 <Link to="/about" className="nav-item"><a href="">About</a></Link>
-                <li className="nav-item"><a href="">Skills</a></li>
-                <li className="nav-item"><a href="">Certifications</a></li> 
+                <Link to="/skills" className="nav-item"><a href="">Skills</a></Link>
+                <Link to="/certification" className="nav-item"><a href="">Certifications</a></Link> 
                 <Link to="/education" className="nav-item"><a href="">Education</a></Link>
-                <li className="nav-item"><a href="">Project</a></li>
+                <Link to="projects" className="nav-item"><a href="">Project</a></Link>
                 <li className="nav-item"><a href="">Resume</a></li>
             </ul>
         </nav>
