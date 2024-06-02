@@ -1,0 +1,20 @@
+*{
+    background-color: #282c34;
+}
+h1{
+    color: white;
+}
+.about-container {
+    padding: 60px 20px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+p{
+    text-align: left;
+}

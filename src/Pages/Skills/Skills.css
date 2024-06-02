@@ -1,0 +1,31 @@
+.skill-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.3rem;
+}
+.img{
+    margin: 1rem;
+    width: 80px;
+    height: 80px;
+}
+
+.img-react{
+    margin: 1rem;
+    width: 130px;
+    height: 130px;
+}
+
+.img-git{
+    width: 120px;
+    height: 70px;
+}
+
+

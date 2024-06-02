@@ -1,0 +1,60 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+*{
+  background-color: #282c34;
+  color: white;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  display: inline-block;
+  height: 10vmin;
+  pointer-events: none;
+  margin-left: 3rem;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.icon-container{
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon{
+  padding: 1rem;
+  font-size: 3rem;
+  color: white;
+  /* border-radius: 3rem; */
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
