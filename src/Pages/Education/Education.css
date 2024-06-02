@@ -6,45 +6,7 @@ html, body {
   html {
     background-color: #f6f6f6;
   }
-  html::before {
-    content: "";
-    display: block;
-    position: absolute;
-    z-index: -1;
-    border-radius: 50%;
-    background-color: #ffebeb;
-    top: 8em;
-    right: -8em;
-    width: 15em;
-    height: 15em;
-  }
-  
-  body {
-    padding: 1em;
-    font-family: Arial, sans serif;
-    font-size: 14px;
-  }
-  body::before, body::after {
-    content: "";
-    display: block;
-    position: absolute;
-    z-index: -1;
-    border-radius: 50%;
-    background-color: #ffebeb;
-  }
-  body::before {
-    top: -10em;
-    left: -15em;
-    width: 25em;
-    height: 30em;
-  }
-  body::after {
-    top: -12em;
-    right: -12em;
-    width: 25em;
-    height: 25em;
-  }
-  
+
   .timelines {
     display: flex;
     justify-content: center;

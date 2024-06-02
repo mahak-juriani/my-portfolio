@@ -6,7 +6,7 @@ import { useState } from "react";
 
 
 function NavBar() {
-    const [activeLink, setActiveLink] = useState("home");
+    const [activeLink, setActiveLink] = useState("");
     return (
         <nav>
             <img src={logo} className="App-logo" alt="logo" />
