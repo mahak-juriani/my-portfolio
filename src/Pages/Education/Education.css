@@ -8,9 +8,11 @@ html, body {
   }
 
   .timelines {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
   }
   
   .timeline-title {
@@ -33,7 +35,7 @@ html, body {
     content: "";
     position: absolute;
     left: -2.45em;
-    margin-top: 70px;
+    margin-top: 0px;
     background-color: #7db5ea;
     width: 1em;
     height: 1em;
@@ -57,7 +59,7 @@ html, body {
     padding: 0.2em 0.4em;
   }
   .timeline-item > * {
-    margin: 1em 0;
+    margin: 5em 2em;
   }
   .timeline-item .location {
     clear: both;

@@ -17,7 +17,7 @@ function Projects() {
                     imgSrc={portfolio}
                     title={"My Portfolio"}
                     description={"This project serves as my personal portfolio, showcasing my skills and projects, all meticulously crafted using the powerful and versatile React framework."}
-                    githubLink={"blahblah"}
+                    githubLink={"https://github.com/mahak-juriani/my-portfolio"}
                 /> 
                 </div>
             

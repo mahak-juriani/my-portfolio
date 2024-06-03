@@ -4,17 +4,19 @@
 h1{
     color: white;
 }
-.about-container {
-    padding: 60px 20px;
-    margin: 0 auto;
-    color: white;
-    border-radius: 10px;
+.about {
+    width: 100%;
+    overflow: hidden;
+    height: 100vh;
     display: flex;
-    justify-content: space-between;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    justify-content: center;
+    align-items: center;
 }
 
 p{
     text-align: left;
+}
+
+.about-wrapper {
+    margin-top: 100px;
 }

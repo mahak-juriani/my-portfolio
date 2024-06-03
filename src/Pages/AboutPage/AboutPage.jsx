@@ -1,8 +1,10 @@
 import Tile from '../../components/Tile/Tile';
 import img from './Screenshot from 2024-06-02 23-48-16.png';
+import './About.css'
 function AboutPage() {
     return (
-        <div className='About'>
+        <div className='about'>
+            <div className='about-wrapper'>
             <Tile
             header={"About"}
             subHeader={"Something about me!"}
@@ -11,6 +13,7 @@ function AboutPage() {
             position={"img-right"}
             bgColor={"red"}
             />
+            </div>
         </div>
     )
 
