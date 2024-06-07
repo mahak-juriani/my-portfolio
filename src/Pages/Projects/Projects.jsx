@@ -1,10 +1,10 @@
 import './Projects.css';
 import portfolio from './images/portfolio.png';
-import spellchecker from './images/Screenshot from 2024-06-02 23-25-39.png';
+import spellchecker from './images/Screenshot from 2024-06-07 12-31-37.png';
 import peoplecounter from './images/peoplecounter.png';
 import blackjack from './images/Blackjack.png';
 import calculator from './images/Calculator.png';
-import musicplayer from './images/musicplayer.png';
+import musicplayer from './images/Screenshot from 2024-06-07 12-36-55.png';
 
 import Card from '../../components/Card'
 function Projects() {
@@ -18,6 +18,7 @@ function Projects() {
                     title={"My Portfolio"}
                     description={"This project serves as my personal portfolio, showcasing my skills and projects, all meticulously crafted using the powerful and versatile React framework."}
                     githubLink={"https://github.com/mahak-juriani/my-portfolio"}
+
                 /> 
                 </div>
             
@@ -27,6 +28,7 @@ function Projects() {
                     title={"Spell Checker"}
                     description={"This project is a Spell Checker application developed in Python, designed to identify and correct spelling errors in text efficiently."}
                     githubLink={"https://github.com/mahak-juriani/Spell-Checker"}
+
                 />
                 </div>
                 <div className="item">

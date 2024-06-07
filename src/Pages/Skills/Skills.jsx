@@ -6,7 +6,7 @@ import Mysql from './images/mysql.png';
 import html from './images/html.png';
 import css from './images/css.png';
 import cli from './images/command-line.png';
-import aws from './images/aws.png'
+import aws from './images/AWS.png'
 import logo from '../../logo.svg';
 import git from './images/git.png';
 
