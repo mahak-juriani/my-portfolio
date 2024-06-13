@@ -8,14 +8,14 @@ h3{
   font-size: 2rem;
 }
 .certificate-card {
-    margin-left: 17.5%;
-    margin-right: 17.5%;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 65%;
-    height: 50%;
+    width: 45%;
+    height: 60%;
     overflow: hidden;
   }
   
